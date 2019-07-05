@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_activity_main"
-    tools:context="cn.org.octopus.opengl.HomeActivity">
+    tools:context="kim.hsl.opengl.HomeActivity">
 
 
     <Button

@@ -1,4 +1,4 @@
-package cn.org.octopus.opengl.rotate_triangle;
+package kim.hsl.opengl.rotate_triangle;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;

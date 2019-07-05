@@ -1,6 +1,6 @@
-package cn.org.octopus.opengl.projection;
-import cn.org.octopus.opengl.R;
-import cn.org.octopus.opengl.utils.DLog;
+package kim.hsl.opengl.projection;
+import kim.hsl.opengl.R;
+import kim.hsl.opengl.utils.DLog;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;

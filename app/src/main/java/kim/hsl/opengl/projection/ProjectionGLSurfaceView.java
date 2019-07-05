@@ -1,4 +1,4 @@
-package cn.org.octopus.opengl.projection;
+package kim.hsl.opengl.projection;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;

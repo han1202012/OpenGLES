@@ -1,7 +1,7 @@
-package cn.org.octopus.opengl.utils;
+package kim.hsl.opengl.utils;
 
 import android.util.Log;
-import cn.org.octopus.opengl.Constants;
+import kim.hsl.opengl.Constants;
 
 public class DLog {
 

@@ -1,4 +1,4 @@
-package cn.org.octopus.opengl.projection;
+package kim.hsl.opengl.projection;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

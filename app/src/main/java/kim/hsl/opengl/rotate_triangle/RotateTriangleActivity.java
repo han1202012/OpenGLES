@@ -1,4 +1,4 @@
-package cn.org.octopus.opengl.rotate_triangle;
+package kim.hsl.opengl.rotate_triangle;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;

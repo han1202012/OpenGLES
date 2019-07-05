@@ -1,12 +1,13 @@
-package cn.org.octopus.opengl;
+package kim.hsl.opengl;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import cn.org.octopus.opengl.projection.OrthogonalProjectionActivity;
-import cn.org.octopus.opengl.projection.ProjectionGLSurfaceView;
-import cn.org.octopus.opengl.rotate_triangle.RotateTriangleActivity;
+
+import kim.hsl.opengl.projection.OrthogonalProjectionActivity;
+import kim.hsl.opengl.projection.ProjectionGLSurfaceView;
+import kim.hsl.opengl.rotate_triangle.RotateTriangleActivity;
 
 public class HomeActivity extends Activity {
 

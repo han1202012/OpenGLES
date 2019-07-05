@@ -1,4 +1,4 @@
-package cn.org.octopus.opengl;
+package kim.hsl.opengl;
 
 public class Constants {
 
