@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OpenGL</string>
+    
+    <string name="flu_projection">透视投影</string>
+    <string name="orthogonal_projection">正交投影</string>
+    <string name="rotate_triangle">旋转彩色三角形</string>
+    
+
+</resources>
