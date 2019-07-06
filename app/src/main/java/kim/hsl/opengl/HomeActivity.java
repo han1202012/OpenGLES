@@ -36,6 +36,7 @@ public class HomeActivity extends Activity {
 			intent = new Intent(this, OrthogonalProjectionActivity.class);
 			startActivity(intent);
 			break;
+
 		default:
 			break;
 		}
