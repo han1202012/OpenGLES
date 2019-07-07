@@ -21,6 +21,7 @@ public class HomeActivity extends Activity {
 	
 	public void onClick(View view) {
 		int id = view.getId();
+
 		switch (id) {
 		case R.id.orhthogonal_projection:
 			ProjectionGLSurfaceView.isOrth = true;
