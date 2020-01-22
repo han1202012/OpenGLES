@@ -24,15 +24,21 @@ public class HomeActivity extends Activity {
 
 		switch (id) {
 		case R.id.orhthogonal_projection:
+
+			//正交投影案例
 			ProjectionGLSurfaceView.isOrth = true;
 			Intent intent = new Intent(this, OrthogonalProjectionActivity.class);
 			startActivity(intent);
 			break;
 		case R.id.rotate_triangle:
+
+			//旋转三角形案例
 			intent = new Intent(this, RotateTriangleActivity.class);
 			startActivity(intent);
 			break;
 		case R.id.flu_projection:
+
+			//透视投影案例
 			ProjectionGLSurfaceView.isOrth = false;
 			intent = new Intent(this, OrthogonalProjectionActivity.class);
 			startActivity(intent);
