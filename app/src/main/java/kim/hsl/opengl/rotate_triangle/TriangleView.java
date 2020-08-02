@@ -64,14 +64,20 @@ public class TriangleView extends GLSurfaceView {
 			 * 后面的四个参数分别是 左 右 下 上 的距离
 			 * 最后两个参数是 近视点 和 远视点 距离
 			 */
-			Matrix.frustumM(Triangle.mProjMatrix, 0, -ratio, ratio, -1, 1, 1, 10);
+			Matrix.frustumM(Triangle.mProjMatrix, 0,
+					-ratio, ratio,
+					-1, 1,
+					1, 10);
 			/*
 			 * 设置摄像机参数矩阵
 			 * 参数介绍 : 
 			 * 前两个参数是摄像机参数矩阵 和 矩阵数组的起始位置
 			 * 后面三个一组是三个空间坐标 先后依次是 摄像机的位置  看的方向 摄像机上方朝向
 			 */
-			Matrix.setLookAtM(Triangle.mVMatrix, 0, 0f,0f,3f,0f,0f,0f,0f,1.0f,0.0f);
+			Matrix.setLookAtM(Triangle.mVMatrix, 0,
+					0f,0f,3f,
+					0f,0f,0f,
+					0f,1.0f,0.0f);
 		}
 
 		@Override
