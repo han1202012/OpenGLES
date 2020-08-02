@@ -1,5 +1,6 @@
 package kim.hsl.opengl.rotate_triangle;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ public class RotateTriangleActivity extends Activity {
 
 	private TriangleView triangleView;
 	
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
