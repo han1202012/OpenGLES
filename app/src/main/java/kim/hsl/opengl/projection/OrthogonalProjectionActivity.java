@@ -34,7 +34,7 @@ public class OrthogonalProjectionActivity extends Activity {
 		              WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);	//设置屏幕为竖屏
 		
-		//② 初始化GLSurfaceView
+		//② 初始化 GLSurfaceView
         mGLSurfaceView = new ProjectionGLSurfaceView(this);
         
 		//③ 设置显示 GLSurfaceView

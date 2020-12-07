@@ -10,9 +10,9 @@ import android.opengl.Matrix;
  */
 public class MatrixState {
 
-	private static float[] mProjMatrix = new float[16]; // 4x4矩阵 投影用
-	private static float[] mVMatrix = new float[16]; // 摄像机位置朝向9参数矩阵
-	private static float[] mMVPMatrix; // 最后起作用的总变换矩阵
+	private static float[] mProjMatrix = new float[16]; 	// 4x4矩阵 投影用
+	private static float[] mVMatrix = new float[16]; 		// 摄像机位置朝向9参数矩阵
+	private static float[] mMVPMatrix; 						// 最后起作用的总变换矩阵
 
 	/**
 	 * 设置摄像机的参数

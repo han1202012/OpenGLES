@@ -31,8 +31,8 @@ public class SixPointedStar {
 	FloatBuffer mColorBuffer; 					// 顶点着色数据缓冲
 	
 	int vCount = 0;								// 顶点个数
-	public float yAngle = 0; 							// 绕y轴旋转的角度
-	public float xAngle = 0; 							// 绕z轴旋转的角度
+	public float yAngle = 0; 					// 绕y轴旋转的角度
+	public float xAngle = 0; 					// 绕z轴旋转的角度
 	final float UNIT_SIZE = 1;
 
 	public SixPointedStar(ProjectionGLSurfaceView mv, float r, float R, float z) {
