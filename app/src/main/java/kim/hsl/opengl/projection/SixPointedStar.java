@@ -206,10 +206,10 @@ public class SixPointedStar {
 				MatrixState.getFinalMatrix(mMMatrix), 0);
 		// 为画笔指定顶点位置数据
 		GLES20.glVertexAttribPointer(maPositionHandle, 	// 顶点位置数据引用
-				3, 										// 每 3 个元素代表一个坐标
+				3, 								// 每 3 个元素代表一个坐标
 				GLES20.GL_FLOAT,						// 坐标的单位是浮点型
-				false, 									// 
-				3 * 4, 									// 每组数据有多少字节
+				false, 						//
+				3 * 4, 							// 每组数据有多少字节
 				mVertexBuffer);							// 顶点数据缓冲区
 		// 为画笔指定顶点着色数据
 		GLES20.glVertexAttribPointer(maColorHandle, 4, GLES20.GL_FLOAT, false,
