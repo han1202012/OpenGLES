@@ -3,7 +3,7 @@ package kim.hsl.opengl.utils;
 import android.util.Log;
 import kim.hsl.opengl.Constants;
 
-public class DLog {
+public class L {
 
 	final static boolean DEBUG = true;
 

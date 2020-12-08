@@ -1,13 +1,12 @@
 package kim.hsl.opengl.projection;
 import kim.hsl.opengl.R;
-import kim.hsl.opengl.utils.DLog;
+import kim.hsl.opengl.utils.L;
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.FrameLayout;
 
 /**
  * Activity 显示 OpenGL 流程
@@ -45,7 +44,7 @@ public class OrthogonalProjectionActivity extends Activity {
     }
 
     public void onClick(View view) {
-    	DLog.i(TAG, "点击了按钮");
+    	L.i(TAG, "点击了按钮");
     	int id = view.getId();
     	switch (id) {
 		case R.id.bt_switch_orth:
