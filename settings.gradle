@@ -1,2 +1,5 @@
 include ':app'
 include ':sample5_6'
+include ':sample5_7'
+include ':sample5_8'
+include ':sample5_9'
